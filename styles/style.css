@@ -203,7 +203,7 @@ input#company-name {
 select#industry {
   background-image: url(/images/angle-down-solid.svg);
   background-repeat: no-repeat;
-  background-position: 275px 10px;
+  background-position: calc(100% - 10px);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -342,10 +342,6 @@ a:link {
     min-width: 30vw;
     max-width: 40vw;
   }
-
-  select#industry {
-    background-position: 200px 12px;
-  }
 }
 
 @media (min-width: 851px) {
@@ -430,12 +426,6 @@ a:link {
   }
 }
 
-@media (min-width: 851px) and (max-width: 1200px) {
-  select#industry {
-    background-position: 240px 12px;
-  }
-}
-
 @media (min-width: 1300px) {
   #body-text-container,
   #list-container {
@@ -443,23 +433,5 @@ a:link {
   }
   #body-text-container {
     margin-top: 2em;
-  }
-}
-
-@media (min-width: 1450px) {
-  select#industry {
-    background-position: 325px 12px;
-  }
-}
-
-@media (min-width: 1600px) {
-  select#industry {
-    background-position: 375px 12px;
-  }
-}
-
-@media (min-width: 1700px) {
-  select#industry {
-    background-position: 400px 12px;
   }
 }
